@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+  </head>
+  <body>
+
+    <form>
+      <button type="button" id="getDataButton">View todo</button> 
+    </form>
+
+    <form action="#" autocomplete="off">
+        <!-- <button type="submit" id="getPostDataButton">Get todo item</button> 
+        <label for="fname">Enter the Id of the post</label>
+        <input type="text" id="fid01" name="fname" required /> -->
+
+        <label for="fname">Enter the Id of the post</label>
+        <input type="text" id="fid01" name="fname"/>
+        <button id="getPostDataButton"> Get Todo item </button>
+    </form>
+
+     <form action="#" autocomplete="off">
+      
+      <label for="fname">Enter the title</label>
+      <input type="text" id="ftitle" name="fname" />
+      <label for="fdescription">Enter the description</label>
+      <input type="text" id="fdesc" name="fdescription"/>
+      <button id="sendDataButton" >send Todo</button>
+    </form>
+
+    <form >
+      <button type="button" id="delDataButton">Delete todo</button> 
+      <label for="fid">Enter the id</label>
+      <input type="text" id="fid" name="fid" required />
+    </form>
+
+      
+    <!-- <form>
+      <button type="button" id="updateDataButton">Update todo</button> 
+      <label for="fname">Enter the title</label>
+      <input type="text" id="ftitle03" name="fname" required/>
+      <label for="fdescription">Enter the title</label>
+      <input type="text" id="fdesc03" name="fdescription" required />
+      <br><br>
+      
+    </form> -->
+
+    <div id="dataContainer"></div>
+  </body>
+  <script src="todo.js"></script>
+</html>
